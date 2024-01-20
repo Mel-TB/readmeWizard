@@ -1,25 +1,18 @@
-type Features = {
-  name: string;
-  description: string;
-};
-
-type Tools = {
-  name: string;
-  url: string;
-};
-
 interface ReadmeData {
   projectName: string;
-  //   email: string;
-  //   repoURL: string;
-  //   linkedinURL: string;
+  email: string;
+  githubUrl: string;
+  linkedin: string;
   description: string;
-  //   features: Features[];
-  //   dependencies: string[];
-  //   directory: string;
-  //   tools: Tools[];
-  //   license: string;
-  //   author: string;
+  features: string[];
+  dependencyBadges: string[];
+  dependencyNames: string[];
+  wantImages: string[];
+
+  directory: string;
+
+  license: string;
+  author: string;
 }
 
-export { ReadmeData, Features, Tools };
+export { ReadmeData };
