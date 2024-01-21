@@ -25,10 +25,11 @@
 - [API Reference](#api-reference)
   - [`promptUser()`](<#promptuser()>)
   - [`ReadmeData` Interface](#readmeData-interface)
-  - [`generateReadme(template: string, data: ReadmeData): string`](#generate-readme-template)
-  - [`getDependenciesInfo()`](#getdependenciesInfos)
+  - [`generateReadme(template: string, data: ReadmeData): string`](#generatereadmetemplate-string-data-readmedata-string)
+  - [`getDependenciesInfo()`](#getdependenciesInfo)
   - [Main Function](#main-function)
 - [Contributing](#contributing)
+- [Interactive Prompts](#interactive-prompts)
 - [License](#license)
 - [Built With](#built-with)
 
