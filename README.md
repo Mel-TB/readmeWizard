@@ -57,10 +57,10 @@ Readme Wizard is a command-line tool that simplifies creating **`README.md`** fi
 
 ### Global Installation
 
-1. Install Readme Wizard globally using npm. This makes the **`readmeWizard`** command available system-wide.
+1. Install Readme Wizard globally using npm. This makes the **`readme-wizard`** command available system-wide.
 
 ```sh
-npm install -g readmeWizard
+npm install -g readme-wizard
 ```
 
 ### Using Readme Wizard
@@ -70,7 +70,7 @@ After installation, you can run Readme Wizard from any directory on your system.
 - To start the interactive prompt and create a README, type:
 
 ```sh
-readmeWizard
+readme-wizard
 ```
 
 - Follow the interactive prompt to input your project details
@@ -81,7 +81,7 @@ readmeWizard
 To update Readme Wizard to the latest version, run :
 
 ```sh
-npm update -g readmeWizard
+npm update -g readme-wizard
 ```
 
 ### Uninstalling
@@ -89,7 +89,7 @@ npm update -g readmeWizard
 If you wish to uninstall Readme Wizard, use:
 
 ```sh
-npm uninstall -g readmeWizard
+npm uninstall -g readme-wizard
 ```
 
 ## API Reference
