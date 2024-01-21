@@ -45,7 +45,7 @@ Readme Wizard is a command-line tool that simplifies creating **`README.md`** fi
 - Interactive CLI prompts to gather project information.
 - Supports dynamic generation of project features, images, and dependency badges.
 - Generates a README with sections like Overview, Features, Installation, and more
-- Automatically detects project dependencies from **'package.json'**
+- Automatically detects project dependencies from **`package.json`**
 
 ## Installation
 
