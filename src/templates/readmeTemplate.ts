@@ -3,7 +3,7 @@ const readmeTemplate = `
 
   <div align="center">
 
-<a href='mailto:{{email}}>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href='https://www.linkedin.com/in/{{linkedin}}'>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href='mailto:{{email}}'>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href='https://www.linkedin.com/in/{{linkedin}}'>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 
 
 {{#each wantImages}}
@@ -31,9 +31,10 @@ const readmeTemplate = `
 - [Notes for Customization](#notes-for-customization)
 </details>
 
-  ## Description
+  ## Overview
   {{description}}
   
+## Implementation Details
 
   ### Features
 {{#each features}}
@@ -70,7 +71,6 @@ cd {{directory}}
 \`\`\`
 
 ### Setup
-
 
 ## Running The Application
 

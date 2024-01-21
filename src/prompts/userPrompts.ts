@@ -1,22 +1,8 @@
 import inquirer from "inquirer";
 import { ReadmeData } from "../types/readmeTypes";
+import { promptForList } from "./promptForList.js";
 
 async function promptUser(): Promise<ReadmeData> {
-  const answers: ReadmeData = {
-    projectName: "",
-    email: "",
-    githubUrl: "",
-    linkedin: "",
-    description: "",
-    features: [],
-    dependencyBadges: [],
-    dependencyNames: [],
-    wantImages: [],
-    directory: "",
-    license: "",
-    author: "",
-  };
-
   const basicInfo = await inquirer.prompt([
     {
       type: "input",
@@ -76,48 +62,19 @@ async function promptUser(): Promise<ReadmeData> {
     },
   ]);
 
-  Object.assign(answers, basicInfo);
+  const answers: ReadmeData = { ...basicInfo };
 
   if (answers.wantImages) {
-    answers.wantImages = [];
-    let addMoreImg = true;
-
-    while (addMoreImg) {
-      const { imagesUrl } = await inquirer.prompt([
-        {
-          type: "input",
-          name: "imagesUrl",
-          message: "Please enter an image URL (or just press enter to finish)",
-        },
-      ]);
-
-      if (imagesUrl) {
-        answers.wantImages.push(imagesUrl);
-      } else {
-        addMoreImg = false;
-      }
-    }
+    answers.wantImages = await promptForList(
+      "Please enter an image URL",
+      "imagesUrl"
+    );
   }
 
-  answers.features = [];
-  let addMore = true;
-  while (addMore) {
-    const { feature } = await inquirer.prompt([
-      {
-        type: "input",
-        name: "feature",
-        message:
-          "Please enter a feature of your project (or just press enter to finish)",
-      },
-    ]);
-
-    if (feature) {
-      answers.features.push(feature);
-    } else {
-      addMore = false;
-    }
-  }
-
+  answers.features = await promptForList(
+    "Please enter a feature of your project ",
+    "features"
+  );
   return answers;
 }
 
