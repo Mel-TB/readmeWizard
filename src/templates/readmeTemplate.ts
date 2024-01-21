@@ -1,5 +1,5 @@
 const readmeTemplate = `
-  # {{projectName}}
+  # {{projectName}} 
 
   <div align="center">
 
@@ -14,7 +14,7 @@ const readmeTemplate = `
 
 <br/>
 
-## Table of Contents
+## 📑 Table of Contents
 
 <details>
 <summary>Table</summary>
@@ -79,10 +79,14 @@ cd {{directory}}
 \`\`\`
 
 
-## Built With
+## ⚒️ Built With
 {{#each dependencyBadges}}
   - {{this}}
 {{/each}}
+
+----
+
+* This README was generated with 💖 by [Readme Magic](https://github.com/Mel-TB/readmeWizard)*
   `;
 
 export { readmeTemplate };

@@ -17,7 +17,7 @@ async function promptUser(): Promise<ReadmeData> {
     {
       type: "input",
       name: "linkedin",
-      message: "What is your LinkedIn?",
+      message: "What is your LinkedIn username (after 'linkedin.com/in/')? ",
     },
     {
       type: "input",

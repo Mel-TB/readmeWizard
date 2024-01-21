@@ -1,14 +1,16 @@
-# Readme Wizard
+# 🪄 Readme Magic
 
   <div align="center">
 
-[![Image](https://i.postimg.cc/G2jXzjnC/readme-Wizard-Logo.png)](https://i.postimg.cc/G2jXzjnC/readme-Wizard-Logo.png)
+<a href='mailto:tramimelinda@gmail.com'>![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a> <a href='https://www.linkedin.com/in/melindat'>![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+
+[![Readme-Magic.png](https://i.postimg.cc/PxTdDznZ/Readme-Magic.png)](https://postimg.cc/Z9sktNRK)
 
 </div>
 
 <br/>
 
-## Table of Contents
+## 📑 Table of Contents
 
 <details>
 <summary>Table</summary>
@@ -25,7 +27,7 @@
 - [API Reference](#api-reference)
   - [`promptUser()`](<#promptuser()>)
   - [`ReadmeData` Interface](#readmeData-interface)
-  - [`generateReadme(template: string, data: ReadmeData): string`](#generatereadmetemplate-string-data-readmedata-string)
+  - [`generateReadme(template: string, data: ReadmeData): string`](#generatereadmetemplate-string-data-readmeData-string)
   - [`getDependenciesInfo()`](#getdependenciesInfo)
   - [Main Function](#main-function)
 - [Contributing](#contributing)
@@ -37,7 +39,7 @@
 
   ## Overview
 
-Readme Wizard is a command-line tool that simplifies creating **`README.md`** files for your projects. It uses interactive prompts to collect project information and generates a comprehensive README document.
+Readme Magic is a command-line tool that simplifies creating **`README.md`** files for your projects. It uses interactive prompts to collect project information and generates a comprehensive README document.
 
 ## Implementation Details
 
@@ -57,39 +59,39 @@ Readme Wizard is a command-line tool that simplifies creating **`README.md`** fi
 
 ### Global Installation
 
-1. Install Readme Wizard globally using npm. This makes the **`readme-wizard`** command available system-wide.
+1. Install Readme Magician globally using npm. This makes the **`readme-magic`** command available system-wide.
 
 ```sh
-npm install -g readme-wizard
+npm install -g readme-magic
 ```
 
 ### Using Readme Wizard
 
-After installation, you can run Readme Wizard from any directory on your system.
+After installation, you can run Readme Magic from any directory on your system.
 
 - To start the interactive prompt and create a README, type:
 
 ```sh
-readme-wizard
+readme-magic
 ```
 
 - Follow the interactive prompt to input your project details
-- Upon completion, Readme Wizard will generate a **`README.md`** file in your specified directory
+- Upon completion, Readme Magic will generate a **`README.md`** file in your specified directory
 
 ### Updating
 
-To update Readme Wizard to the latest version, run :
+To update Readme Magic to the latest version, run :
 
 ```sh
-npm update -g readme-wizard
+npm update -g readme-magic
 ```
 
 ### Uninstalling
 
-If you wish to uninstall Readme Wizard, use:
+If you wish to uninstall Readme Magic, use:
 
 ```sh
-npm uninstall -g readme-wizard
+npm uninstall -g readme-magic
 ```
 
 ## API Reference
@@ -155,7 +157,7 @@ The **`promptUser()`** function uses inquirer to ask the user a series of questi
 
 Each prompt corresponds to a field in the **`ReadmeData`** object. The responses are used to populate this object, which is then utilized by **`generateReadme`** to create the README file.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions to improve this package are welcome. Please adhere to the project's coding standards and commit guidelines.
 
@@ -163,10 +165,14 @@ Contributions to improve this package are welcome. Please adhere to the project'
 
 [MIT License](https://github.com/Mel-TB/readmeWizard/tree/main?tab=MIT-1-ov-file) © [Melinda Trami](https://melindatrami.com)
 
-## Built With
+## ⚒️ Built With
 
 - ![handlebars](https://img.shields.io/badge/handlebars-F0EDCF?style=for-the-badge&logo=handlebars&logoColor=white)
 - ![inquirer](https://img.shields.io/badge/inquirer-F0EDCF?style=for-the-badge&logo=inquirer&logoColor=white)
 - ![@types/inquirer](https://img.shields.io/badge/@types/inquirer-40A2D8?style=for-the-badge&logo=%40types%2Finquirer&logoColor=white)
 - ![@types/node](https://img.shields.io/badge/@types/node-40A2D8?style=for-the-badge&logo=%40types%2Fnode&logoColor=white)
 - ![typescript](https://img.shields.io/badge/typescript-40A2D8?style=for-the-badge&logo=typescript&logoColor=white)
+
+  ***
+
+  _🌟 This README was generated with 💖 by [Readme Magic](https://github.com/Mel-TB/readmeWizard)_

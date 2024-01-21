@@ -1,10 +1,10 @@
 {
-  "name": "readmewizard",
+  "name": "readme-magic",
   "version": "1.0.0",
   "bin": {
-    "readme-wizard": "./dist/main.js"
+    "readme-magic": "dist/main.js"
   },
-  "description": "Generate README file",
+  "description": "CLI Tool for Effortless and Beautiful README Generation",
   "type": "module",
   "main": "src/main.ts",
   "scripts": {
@@ -14,11 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mel-TB/readmeWizard"
+    "url": "git+https://github.com/Mel-TB/readmeWizard.git"
   },
   "keywords": [
     "readme",
-    "readmeWizard",
+    "readmeMagic",
+    "doc",
+    "markdown",
+    "markdown generator",
+    "readme tool",
     "readme generator",
     "documentation"
   ],
