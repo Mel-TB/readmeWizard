@@ -57,10 +57,10 @@ Readme Wizard is a command-line tool that simplifies creating **`README.md`** fi
 
 ### Global Installation
 
-1. Install Readme Wizard globally using npm. This makes the **`readmeWizard`** command available system-wide.
+1. Install Readme Wizard globally using npm. This makes the **`readme-wizard`** command available system-wide.
 
 ```sh
-npm install -g readmeWizard
+npm install -g readme-wizard
 ```
 
 ### Using Readme Wizard
@@ -70,7 +70,7 @@ After installation, you can run Readme Wizard from any directory on your system.
 - To start the interactive prompt and create a README, type:
 
 ```sh
-readmeWizard
+readme-wizard
 ```
 
 - Follow the interactive prompt to input your project details
@@ -81,7 +81,7 @@ readmeWizard
 To update Readme Wizard to the latest version, run :
 
 ```sh
-npm update -g readmeWizard
+npm update -g readme-wizard
 ```
 
 ### Uninstalling
@@ -89,7 +89,7 @@ npm update -g readmeWizard
 If you wish to uninstall Readme Wizard, use:
 
 ```sh
-npm uninstall -g readmeWizard
+npm uninstall -g readme-wizard
 ```
 
 ## API Reference
@@ -165,8 +165,8 @@ Contributions to improve this package are welcome. Please adhere to the project'
 
 ## Built With
 
-- ![handlebars](https://img.shields.io/badge/handlebars-ffecd1?style=for-the-badge&logo=handlebars&logoColor=white)
-- ![inquirer](https://img.shields.io/badge/inquirer-ffecd1?style=for-the-badge&logo=inquirer&logoColor=white)
-- ![@types/inquirer](https://img.shields.io/badge/@types/inquirer-9d4edd?style=for-the-badge&logo=%40types%2Finquirer&logoColor=white)
-- ![@types/node](https://img.shields.io/badge/@types/node-9d4edd?style=for-the-badge&logo=%40types%2Fnode&logoColor=white)
-- ![typescript](https://img.shields.io/badge/typescript-9d4edd?style=for-the-badge&logo=typescript&logoColor=white)
+- ![handlebars](https://img.shields.io/badge/handlebars-F0EDCF?style=for-the-badge&logo=handlebars&logoColor=white)
+- ![inquirer](https://img.shields.io/badge/inquirer-F0EDCF?style=for-the-badge&logo=inquirer&logoColor=white)
+- ![@types/inquirer](https://img.shields.io/badge/@types/inquirer-40A2D8?style=for-the-badge&logo=%40types%2Finquirer&logoColor=white)
+- ![@types/node](https://img.shields.io/badge/@types/node-40A2D8?style=for-the-badge&logo=%40types%2Fnode&logoColor=white)
+- ![typescript](https://img.shields.io/badge/typescript-40A2D8?style=for-the-badge&logo=typescript&logoColor=white)
