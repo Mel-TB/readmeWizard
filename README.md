@@ -1,8 +1,8 @@
-# Readme Wizard
+# Readme Magic
 
   <div align="center">
 
-[![Image](https://i.postimg.cc/G2jXzjnC/readme-Wizard-Logo.png)](https://i.postimg.cc/G2jXzjnC/readme-Wizard-Logo.png)
+[![Readme-Magic.png](https://i.postimg.cc/PxTdDznZ/Readme-Magic.png)](https://postimg.cc/Z9sktNRK)
 
 </div>
 
@@ -25,7 +25,7 @@
 - [API Reference](#api-reference)
   - [`promptUser()`](<#promptuser()>)
   - [`ReadmeData` Interface](#readmeData-interface)
-  - [`generateReadme(template: string, data: ReadmeData): string`](#generatereadmetemplate-string-data-readmedata-string)
+  - [`generateReadme(template: string, data: ReadmeData): string`](#generatereadmetemplate-string-data-readmeData-string)
   - [`getDependenciesInfo()`](#getdependenciesInfo)
   - [Main Function](#main-function)
 - [Contributing](#contributing)
@@ -37,7 +37,7 @@
 
   ## Overview
 
-Readme Wizard is a command-line tool that simplifies creating **`README.md`** files for your projects. It uses interactive prompts to collect project information and generates a comprehensive README document.
+Readme Magic is a command-line tool that simplifies creating **`README.md`** files for your projects. It uses interactive prompts to collect project information and generates a comprehensive README document.
 
 ## Implementation Details
 
@@ -57,39 +57,39 @@ Readme Wizard is a command-line tool that simplifies creating **`README.md`** fi
 
 ### Global Installation
 
-1. Install Readme Wizard globally using npm. This makes the **`readme-wizard`** command available system-wide.
+1. Install Readme Magician globally using npm. This makes the **`readme-magic`** command available system-wide.
 
 ```sh
-npm install -g readme-wizard
+npm install -g readme-magic
 ```
 
 ### Using Readme Wizard
 
-After installation, you can run Readme Wizard from any directory on your system.
+After installation, you can run Readme Magic from any directory on your system.
 
 - To start the interactive prompt and create a README, type:
 
 ```sh
-readme-wizard
+readme-magic
 ```
 
 - Follow the interactive prompt to input your project details
-- Upon completion, Readme Wizard will generate a **`README.md`** file in your specified directory
+- Upon completion, Readme Magic will generate a **`README.md`** file in your specified directory
 
 ### Updating
 
-To update Readme Wizard to the latest version, run :
+To update Readme Magic to the latest version, run :
 
 ```sh
-npm update -g readme-wizard
+npm update -g readme-magic
 ```
 
 ### Uninstalling
 
-If you wish to uninstall Readme Wizard, use:
+If you wish to uninstall Readme Magic, use:
 
 ```sh
-npm uninstall -g readme-wizard
+npm uninstall -g readme-magic
 ```
 
 ## API Reference
