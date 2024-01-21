@@ -14,9 +14,9 @@ function getDependenciesInfo() {
     dependencyNames = Object.keys(allDependencies);
 
     dependencyBadges = dependencyNames.map((dep) => {
-      let color = "ffecd1";
+      let color = "F0EDCF";
       if (!dependencies[dep] && devDependencies[dep]) {
-        color = "9d4edd";
+        color = "40A2D8";
       }
       return `![${dep}](https://img.shields.io/badge/${dep}-${color}?style=for-the-badge&logo=${encodeURIComponent(
         dep

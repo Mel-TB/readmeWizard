@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as fs from "fs";
 import { readmeTemplate } from "./templates/readmeTemplate.js";
 import { promptUser } from "./prompts/userPrompts.js";
