@@ -165,8 +165,8 @@ Contributions to improve this package are welcome. Please adhere to the project'
 
 ## Built With
 
-- ![handlebars](https://img.shields.io/badge/handlebars-ffecd1?style=for-the-badge&logo=handlebars&logoColor=white)
-- ![inquirer](https://img.shields.io/badge/inquirer-ffecd1?style=for-the-badge&logo=inquirer&logoColor=white)
-- ![@types/inquirer](https://img.shields.io/badge/@types/inquirer-9d4edd?style=for-the-badge&logo=%40types%2Finquirer&logoColor=white)
-- ![@types/node](https://img.shields.io/badge/@types/node-9d4edd?style=for-the-badge&logo=%40types%2Fnode&logoColor=white)
-- ![typescript](https://img.shields.io/badge/typescript-9d4edd?style=for-the-badge&logo=typescript&logoColor=white)
+- ![handlebars](https://img.shields.io/badge/handlebars-F0EDCF?style=for-the-badge&logo=handlebars&logoColor=white)
+- ![inquirer](https://img.shields.io/badge/inquirer-F0EDCF?style=for-the-badge&logo=inquirer&logoColor=white)
+- ![@types/inquirer](https://img.shields.io/badge/@types/inquirer-40A2D8?style=for-the-badge&logo=%40types%2Finquirer&logoColor=white)
+- ![@types/node](https://img.shields.io/badge/@types/node-40A2D8?style=for-the-badge&logo=%40types%2Fnode&logoColor=white)
+- ![typescript](https://img.shields.io/badge/typescript-40A2D8?style=for-the-badge&logo=typescript&logoColor=white)
